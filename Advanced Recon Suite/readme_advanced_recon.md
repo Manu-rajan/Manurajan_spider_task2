@@ -73,7 +73,7 @@ The Advanced Recon Suite performs the following tasks:
 Build and run inside Docker for full dependency support:
 
 ```bash
-docker build -f advanced_docker -t advanced-recon .
+docker build -f advanced_docker -t advanced-recon 
 docker run --rm -v $(pwd)/reports:/app/reports advanced-recon example.com --crtsh --dns --gowitness --nikto
 ```
 
