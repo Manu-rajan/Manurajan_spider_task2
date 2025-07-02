@@ -1,7 +1,0 @@
-"Nikto - v2.5.0/"
-"hackertarget.com","172.67.72.147","80","","","","cloudflare"
-"hackertarget.com","172.67.72.147","80","https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options","GET","/","The anti-clickjacking X-Frame-Options header is not present."
-"hackertarget.com","172.67.72.147","80","","GET","/","Uncommon header 'server-timing' found, with contents: cfL4;desc=\"?proto=TCP&rtt=26402&min_rtt=22548&rtt_var=12671&sent=3&recv=5&lost=0&retrans=0&sent_bytes=1998&recv_bytes=585&delivery_rate=40791&cwnd=251&unsent_bytes=0&cid=0000000000000000&ts=0&x=0\"."
-"hackertarget.com","172.67.72.147","80","https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/","GET","/","The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type."
-"hackertarget.com","172.67.72.147","80","","GET","/","Uncommon header 'proxy-status' found, with contents: Cloudflare-Proxy;error=http_request_error."
-"hackertarget.com","172.67.72.147","80","","GET","/cdn-cgi/trace","Cloudflare trace CGI found, which may leak some system information."
