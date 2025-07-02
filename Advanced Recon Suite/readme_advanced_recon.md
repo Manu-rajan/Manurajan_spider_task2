@@ -102,8 +102,8 @@ sudo apt install nmap nikto whatweb whois git chromium chromium-driver
 Download gowitness binary:
 
 ```bash
-wget https://github.com/sensepost/gowitness/releases/download/2.5.0/gowitness-2.5.0-linux-amd64 -O /usr/local/bin/gowitness
-chmod +x /usr/local/bin/gowitness
+sudo wget https://github.com/sensepost/gowitness/releases/download/2.5.0/gowitness-2.5.0-linux-amd64 -O /usr/local/bin/gowitness
+sudo chmod +x /usr/local/bin/gowitness
 ```
 
 ---
@@ -129,8 +129,7 @@ All module flags are optional — you can choose what to run.
 ##  Deliverables
 
 - `advanced_recon.py` — The main script
-- `templates/report_template.html` — Jinja2 HTML template
-- `reports/` — Output folder (screenshots, reports)
+- `reports/` — Output folder (screenshots, HTML summary report)
 - `README.md` — This documentation
 
 ---
